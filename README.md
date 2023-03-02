@@ -22,6 +22,7 @@ dependencies:
 
 ## Super simples de usar 
 
+```dart
 import 'package:credit_card_flip/credit_card_flip.dart';
 import 'package:flutter/material.dart';
 
@@ -74,7 +75,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
+```
 
 ## Authors
 
