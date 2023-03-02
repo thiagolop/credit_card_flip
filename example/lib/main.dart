@@ -14,10 +14,12 @@ class MyApp extends StatelessWidget {
       title: 'Credit Card',
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        backgroundColor: Colors.white12,
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: const [
+              Text('Flip', style: TextStyle(color: Colors.white, fontSize: 22)),
               CreditCardFlip(
                 bank: 'Bank of America',
                 cardExpiration: '12/22',
@@ -25,8 +27,9 @@ class MyApp extends StatelessWidget {
                 cardNumber: '6011 5678 9012 3451',
                 securityCode: '123',
                 qrCode: 'https://github.com/thiagolop',
-                
               ),
+              SizedBox(height: 10),
+              Text('Front', style: TextStyle(color: Colors.white, fontSize: 22)),
               CreditCard(
                 bank: 'Bank of America',
                 cardExpiration: '12/22',
@@ -35,6 +38,8 @@ class MyApp extends StatelessWidget {
                 securityCode: '456',
                 face: CreditCardFace.front,
               ),
+              SizedBox(height: 10),
+              Text('Back', style: TextStyle(color: Colors.white, fontSize: 22)),
               CreditCard(
                 bank: 'Bank of America',
                 cardExpiration: '12/22',
