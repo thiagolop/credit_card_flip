@@ -1,0 +1,34 @@
+name: credit_card_flip
+description: The credit card flip package offers various additional features that enhance the payment experience for users. The system includes a self-recognition resource for the card's flag and a customizable widget for the flag logo, which eliminates the need for manual entry by the user. It also allows for the insertion of a security code on the back of the card for added online transaction security.
+
+Moreover, the package offers a rotating card feature that enables users to view the front and back of the card in an animated and intuitive interface. Users can select to display either the front or back of the card based on their preferences. Overall, these features provide users with a personalized, secure, and convenient payment experience.
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  qr_flutter: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  assets:
+    - assets/imagens/
+  fonts:
+    - family: CourrierPrime
+      fonts:
+        - asset: assets/fonts/CourierPrime-Regular.ttf
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato-Regular.ttf
+        - asset: assets/fonts/Lato-Bold.ttf
+          weight: 700
