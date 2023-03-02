@@ -1,9 +1,7 @@
 name: credit_card_flip
-description: The credit card flip package offers various additional features that enhance the payment experience for users. The system includes a self-recognition resource for the card's flag and a customizable widget for the flag logo, which eliminates the need for manual entry by the user. It also allows for the insertion of a security code on the back of the card for added online transaction security.
-
-Moreover, the package offers a rotating card feature that enables users to view the front and back of the card in an animated and intuitive interface. Users can select to display either the front or back of the card based on their preferences. Overall, these features provide users with a personalized, secure, and convenient payment experience.
+description: Package for displaying Credid Cards
 version: 0.0.1
-homepage:
+homepage: https://github.com/thiagolop/credit_card_flip
 
 environment:
   sdk: '>=2.19.2 <3.0.0'
