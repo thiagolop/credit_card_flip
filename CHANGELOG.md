@@ -1,3 +1,3 @@
-## 0.0.3
+## 0.0.4
 
-* Add Giff in README.md.
+* Add new exemple in README.md.
