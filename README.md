@@ -19,6 +19,16 @@ CreditCardFlip(
   securityCode: '123',
   qrCode: 'https://github.com/thiagolop',
 )
+
+CreditCardFlip(
+size: const Size(100, 150),
+bank: 'Bank of America',
+cardExpiration: '12/22',
+cardHolder: 'John Doe',
+cardNumber: '6011 5678 9012 3451',
+securityCode: '123',
+flagLogo: Container(color: Colors.blue),
+),
 ```
 
 ## Authors
